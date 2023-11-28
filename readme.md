@@ -26,4 +26,5 @@ Buon lavoro e buon divertimento! :faccia_leggermente_sorridente:
 Svolgimento:
 1 - Creo prompt per chiedere tra pari e dispari
 2 - Dichiaro le variabili pari e dispari
-3 - Creo if/else in caso vengano scritti prompt errati
+3 - Creo ciclo while in caso vengano scritti prompt errati
+4 - Creo prompt scelta del numero per il giocatore
