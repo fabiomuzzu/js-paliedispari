@@ -11,13 +11,11 @@ while (ask == 'pari' || ask == 'dispari' ) {
     ask++;
 } 
 
-// COME FACCIO A RIPETERE IL PROMPT NEL CICLO WHILE SE INSERIMENTO NON CORRETTO?
-
 // 4 - Creo prompt per far scegliere numero da 1 a 5 all'utente
 let player_num = prompt('Scegli un numero da 1 a 5');
-console.log(player_num);
+player_num = parseFloat(player_num);
+console.log(`Il numero che hai scelto è: ${player_num}`);
 
-// STESSO PROBLEMA DI SU
 
 // 5 - Creo una funzione che genera un numero random da 1 a 5 per il computer
 function randomNumber(){
@@ -26,4 +24,23 @@ function randomNumber(){
     return pc_num;
 }
 
-randomNumber();
+// 6 - Porto fuori dalla funzione il numero random del computer
+let computer_num = randomNumber();
+console.log(`Il numero del computer è: ${computer_num}`);
+
+// 7 - Funzione per somma dei due numeri
+function sommaNumeri(player_num, computer_num){
+    return parseFloat(player_num + computer_num);
+}
+
+let somma = sommaNumeri(player_num, computer_num);
+console.log(`La somma dei numeri è: ${somma}`);
+
+// 8 - Stabilire chi ha vinto
+
+if(somma%2 == 0){
+    console.log('Il pari ha vinto!')
+}
+else{
+    console.log('Il dispari ha vinto!')
+}
