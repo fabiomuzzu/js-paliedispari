@@ -5,7 +5,7 @@ let ask = prompt('Scegli tra pari o dispari');
 let pari = 'pari';
 let dispari = 'dispari';
 
-// 3 - Creo if/else in caso vengano scritti prompt errati
+// 3 - Creo ciclo while in caso vengano scritti prompt errati
 while (ask == 'pari' || ask == 'dispari' ) {
     console.log(`Hai scelto ${ask}`);
     ask++;
@@ -36,8 +36,7 @@ function sommaNumeri(player_num, computer_num){
 let somma = sommaNumeri(player_num, computer_num);
 console.log(`La somma dei numeri è: ${somma}`);
 
-// 8 - Stabilire chi ha vinto
-
+// 8 - Stabilire chi ha vinto con if/else
 if(somma%2 == 0){
     console.log('Il pari ha vinto!')
 }

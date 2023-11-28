@@ -27,4 +27,8 @@ Svolgimento:
 1 - Creo prompt per chiedere tra pari e dispari
 2 - Dichiaro le variabili pari e dispari
 3 - Creo ciclo while in caso vengano scritti prompt errati
-4 - Creo prompt scelta del numero per il giocatore
+4 - Creo prompt per far scegliere numero da 1 a 5 all'utente
+5 - Creo una funzione che genera un numero random da 1 a 5 per il computer
+6 - Porto fuori dalla funzione il numero random del computer
+7 - Funzione per somma dei due numeri
+8 - Stabilire chi ha vinto con if/else
