@@ -5,7 +5,7 @@ let ask = prompt('Scegli tra pari o dispari');
 let pari = 'pari';
 let dispari = 'dispari';
 
-// 3 - Creo ciclo while in caso vengano scritti prompt errati
+// 3 - Creo ciclo while
 while (ask == 'pari' || ask == 'dispari' ) {
     console.log(`Hai scelto ${ask}`);
     ask++;
