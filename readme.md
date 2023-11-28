@@ -8,7 +8,9 @@ Creare una funzione per capire se la parola inserita è palindroma
 
 Svolgimento:
 1 - Creare un prompt per pernmettere l'inserimento di una parola.
-2 -  
+2 - Creare funzione per "scomporre" la parola
+3 - Richiamo la funzione
+4 - Creo ciclo if/else per visualizzare in console il risultato
 
 Pari e Dispari
 L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
