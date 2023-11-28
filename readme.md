@@ -23,3 +23,7 @@ Consigli del giorno
 2. Scriviamo sempre solo un pezzetto di codice alla volta, se funziona allora andiamo avanti.
 Buon lavoro e buon divertimento! :faccia_leggermente_sorridente:
 
+Svolgimento:
+1 - Creo prompt per chiedere tra pari e dispari
+2 - Dichiaro le variabili pari e dispari
+3 - Creo if/else in caso vengano scritti prompt errati
