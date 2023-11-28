@@ -11,7 +11,7 @@ function wordLetters(word){
 
     
     // 4 - Creo ciclo if/else per visualizzare in console il risultato
-    if (reverse_word == word){
+    if (reverse_word.toLowerCase == word.toLowerCase){
         console.log('La parola è palindroma!')
     }
     else{
